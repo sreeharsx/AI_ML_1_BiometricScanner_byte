@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset - private/local
+data/raw/
+data/processed/
+
+# Environment variables
+.env
+
+# Trained model files
+models/*.h5
+models/*.keras
+models/*.pt
+models/*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
